@@ -127,6 +127,19 @@
     border-color: var(--accent);
     transform: translateY(-1px);
   }
+
+  .campaign-document p {
+    margin-bottom: 1rem;
+  }
+
+  .pdf-viewer {
+    display: block;
+    width: 100%;
+    min-height: 75vh;
+    border: 1px solid var(--accent-dark);
+    border-radius: 8px;
+    background: var(--surface-light);
+  }
   
   footer {
     text-align: center;
